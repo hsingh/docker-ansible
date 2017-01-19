@@ -10,7 +10,8 @@ FROM python:2.7-alpine
 MAINTAINER Harpreet Singh <hs@hsingh.com>
 
 RUN echo "===> Adding handy tools..." && \
-    apk add --no-cache --virtual build-dependencies python-dev libffi-dev openssl-dev build-base groff curl zip git bash && \
+    apk add --no-cache --virtual build-dependencies python-dev libffi-dev openssl-dev build-base && \
+    apk add --no-cache groff curl zip git bash && \
     echo "===> Installing Ansible & Boto..."  && \
     pip --disable-pip-version-check --no-cache-dir install boto boto3 ansible==1.9.6 awscli && \
     \
