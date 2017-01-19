@@ -13,7 +13,7 @@ RUN echo "===> Adding handy tools..." && \
     apk add --no-cache --virtual build-dependencies python-dev libffi-dev openssl-dev build-base && \
     apk add --no-cache groff curl zip git bash && \
     echo "===> Installing Ansible & Boto..."  && \
-    pip --disable-pip-version-check --no-cache-dir install boto boto3 ansible==2.2.0.0 awscli && \
+    pip --disable-pip-version-check --no-cache-dir install boto boto3 ansible==2.2.1.0 awscli && \
     \
     \
     apk del build-dependencies && \
