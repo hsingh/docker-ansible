@@ -10,7 +10,7 @@ FROM python:2.7
 MAINTAINER Harpreet Singh <hs@hsingh.com>
 
 RUN echo "===> Installing Ansible & Boto..."  && \
-    pip --disable-pip-version-check --no-cache-dir install boto boto3 ansible==2.1.4.0 awscli && \
+    pip --disable-pip-version-check --no-cache-dir install boto boto3 ansible==2.1.3.0 awscli && \
     \
     \
     echo "===> Adding handy tools..."  && \
