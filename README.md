@@ -9,7 +9,7 @@ This repository contains Dockerized [Ansible](https://github.com/ansible/ansible
 
 ## Configuration
 
-Three ansible versions are available: 1.9, 2.1 & 2.2. All three versions have awscli, boto and boto3 installed as well.
+Three ansible versions are available: 1.9, 2.1, 2.2 & 2.3. All three versions have awscli, boto and boto3 installed as well.
 
 ## Images and tags
 
@@ -19,6 +19,8 @@ Three ansible versions are available: 1.9, 2.1 & 2.2. All three versions have aw
   - `hsingh9/ansible:2.1-alpine`
   - `hsingh9/ansible:2.2`
   - `hsingh9/ansible:2.2-alpine`
+  - `hsingh9/ansible:2.3`
+  - `hsingh9/ansible:2.3-alpine`
 
 ## License
 
